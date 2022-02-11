@@ -1,0 +1,7 @@
+__default__:
+  partition: veryshort
+  mail-type: ALL,TIME_LIMIT_80
+  output: logs/{rule}/{rule}-{wildcards}-%j.out
+  mem: 20000M
+  nodes: 1
+  cpus-per-task: 12
