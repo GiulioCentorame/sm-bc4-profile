@@ -19,7 +19,7 @@ mkdir -p bc4 && cd bc4 &&
 git clone https://github.com/GiulioCentorame/sm-bc4-profile.git
 ```
 
-To run Snakemake with the profile, add the `--profile bc4` flag to the Snakemake call, e.g.
+To run Snakemake with the profile, add the `--profile bc4` flag, e.g.
 
 ```
 Snakemake -np -c1 --profile bc4
