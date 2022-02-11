@@ -1,8 +1,19 @@
 # sm-bc4-profile
 Simple and ready-to-go profile for Snakemake on BlueCrystal 4 with sensible defaults, based on [the default slurm profile](https://github.com/Snakemake-Profiles/slurm)
 
-## Setup
+## Prerequisites
+This profile requires Cookiecutter to run. You can install it with
 
+```
+$ python3 -m pip install --user cookiecutter
+```
+or, if under a conda environment:
+```
+conda config --add channels conda-forge
+conda install cookiecutter
+```
+## Setup
+In your project folder, run
 ```
 mkdir -p bc4 && cd bc4 &&
 git clone https://github.com/GiulioCentorame/sm-bc4-profile.git
