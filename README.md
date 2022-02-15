@@ -15,14 +15,13 @@ conda install cookiecutter
 ## Setup
 In your project folder, run
 ```
-mkdir -p bc4 && cd bc4 &&
 git clone https://github.com/GiulioCentorame/sm-bc4-profile.git
 ```
 
 To run Snakemake with the profile, add the `--profile bc4` flag, e.g.
 
 ```
-Snakemake -np -c1 --profile bc4
+snakemake -np -c1 --profile sm-bc4-profile
 ```
 
 To add rule-dependent settings for the job submission (or override the default ones), add entries to `cluster_profile.yaml` with the following YAML syntax:
